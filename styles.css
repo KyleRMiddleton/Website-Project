@@ -1,0 +1,410 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: #ca907e;
+}
+
+
+.header_black{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: black 2px solid; */
+    
+    height: 100px;
+    font-size: 100%;
+    /* background-color: #994636; */
+    
+}
+
+.header_red{
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    font-size: 40px;
+    background: fixed;
+    color: #dbd8ae;
+    /* background-color: #994636; */
+    
+
+}
+
+
+
+
+
+
+
+.bouquet-img-red{
+        /* border: solid 2px red; */
+        width: 30%;
+        margin-top: 100px;
+        /* color: #fafafa; */
+        color: #dbd8ae;
+        background-color: #994636;
+}
+
+        .bouquet-img-black{
+    /* border: solid 2px black; */
+    display: flex;
+    justify-content: space-evenly;
+    color: #dbd8ae;
+}
+
+
+.bouquet-1{
+    width: 400px;
+    height: 290px;
+    background-color: #994636;
+    
+}
+
+.bouquet_names{
+    color: #dbd8ae;
+        background-color: #994636;
+        width: 100%;
+        justify-content: space-evenly;
+        margin: 0;
+    
+
+}
+.bouquet-desc{
+    background-color: #994636;
+}
+.bouquet-prices{
+    background-color: #994636;
+}
+
+
+.bouquet_text{
+    color: #dbd8ae;
+    background-color: #994636;
+    width: 100%;
+    font-size: 20px;
+}
+
+.title-bouquet{
+    color: #dbd8ae;
+    background-color: #994636;
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+    font-size: 30px;
+    
+}
+
+
+.title-plants{
+    background-color: #994636;
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+}
+
+
+.plants_pictures_black{
+    /* border: solid 2px black; */
+    display: flex;
+    justify-content: space-evenly;
+    color: #dbd8ae;
+
+}
+
+.plants_images_red{
+    /* border: solid 2px red; */
+    width: 30%;
+    margin-top: 100px;
+    /* color: #fafafa; */
+    color: #dbd8ae;
+    background-color: #994636;
+}
+.plant-1{
+    width: 400px;
+    height: 290px;
+    background-color: #994636;
+    
+    }
+    
+    
+    .plants{
+        margin-top: 10px;
+        width: 100%;
+        /* background: #fffdfa; */
+        height: 20%;
+        font-size: 20px;
+        color: #dbd8ae;
+        /* background-color: #994636; */
+        
+    }
+
+    .plant_names{
+        color: #dbd8ae;
+        background-color: #994636;
+        width: 100%;
+        justify-content: space-evenly;
+        margin: 0;
+
+    }
+
+    .plant-prices{
+        background-color: #994636;
+    }
+.plant-description{
+    background-color: #994636;
+}
+.plants_text{
+    background-color: #994636;
+}
+
+
+
+
+
+
+.home_page_text{
+    width: 100%;
+    height: 40px;
+    margin-top: 50px;
+    color: #dbd8ae;
+}
+.home_page{
+    background-color: #994636;
+    width: 100%;
+}
+
+.home_page_bottom{
+    font-size: 20px;
+    margin-top: 30px;
+    color: #dbd8ae;
+}
+
+
+
+
+
+.homepage_middle{
+    margin-top: 20px;
+    width: 100%;
+    height: 20px;
+    color: #dbd8ae;
+    background-color: #994636;
+}
+.home_page_bottom{
+    font-size: 20px;
+    width: 100%;
+    height: 20px;
+    
+    position: relative;
+    color: #dbd8ae;
+    background-color: #994636;
+
+}
+
+.paragraph_intro{
+    width: 100%;
+    background-color: #994636;
+    margin: 0;
+}
+.introduction{
+    width: 100%;
+    background-color: #994636;
+}
+
+.home-page-black{
+    background-color: #994636;
+    margin-top: 20px;
+    /* height: 150px; */
+}
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .wrapper {
+        justify-content: space-between;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .html, body{
+        box-sizing: border-box;
+        height: 100%;
+        padding: 0%;
+        margin: 0;
+    }
+    .page-footer{
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+    .page-body {
+        flex-grow: 1;
+    }
+
+
+
+
+
+/* Contact Form Container */
+.contact-container {
+    background-color: #994636;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    flex-grow: 1;
+}
+
+/* Form Styles */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #994636;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #dbd8ae;
+    color: #994636;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: black;
+}
+
+    .title{ 
+        color: #dbd8ae;
+        background-color: #994636;
+    }
+    .form-info{
+        color: #dbd8ae;
+        background-color: #994636;
+
+    }
+
+
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Content Area */
+    .content {
+        flex-grow: 1;
+    }
+    
+
+
+
+
+
+
+   
+
+    /* Sticky Footer Styles */
+    .sticky-footer {
+        background-color: #994636;
+        color: #dbd8ae;
+        text-align: center;
+        padding: 15px 0;
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        margin-top: 5%;
+        color: #dbd8ae;
+    }
+    
+    .sticky-footer h2 {
+        margin: 0;
+        margin-bottom: 0;
+        font-size: 1.5em;
+        margin-bottom: 0;
+        background-color: #994636;
+    }
+    
+    .sticky-footer .social-links {
+        margin-top: 10px;
+        background-color: #994636;
+        margin-bottom: 0;
+    }
+    
+    .sticky-footer .social-links a {
+        color: #dbd8ae;
+        margin: 0 10px;
+        text-decoration: none;
+        font-size: 1em;
+        transition: color 0.3s ease;
+        background-color: #994636;
+        margin bottom: 0;
+    }
+    
+    .sticky-footer .social-links a:hover {
+        color: #994636;
+        background-color: #994636;
+    }
+
+
+    .header_black .header_red a:hover{
+        color: #994636;
+        /* background-color: #994636; */
+    }
+    .header_black .header_red a {
+        color: #dbd8ae;
+    }
